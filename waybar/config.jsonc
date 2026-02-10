@@ -1,0 +1,110 @@
+{
+  "layer": "top",
+  "margin-top": 20,
+  "width": 1550,
+  "modules-left": [
+    "clock",
+    "custom/nixos-logo",
+    "hyprland/workspaces"
+  ],
+  "modules-center": [],
+  "modules-right": [
+    "network",
+    "pulseaudio",
+    "custom/notification",
+    "custom/power"
+  ],
+  "sway/window": {
+    "max-length": 50,
+  },
+  "clock": {
+    "interval": 60,
+    "tooltip": true,
+    "format": "{:%H:%M}",
+    "tooltip-format": "{:%Y-%m-%d}",
+  },
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-bluetooth": "{volume}% {icon}",
+    "format-muted": "",
+    "format-icons": {
+      "default": [
+        "",
+        ""
+      ],
+    },
+    "scroll-step": 1,
+    "on-click": "pavucontrol",
+    "ignored-sinks": [
+      "Easy Effects Sink"
+    ],
+  },
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "persistent-workspaces": {
+      "*": 5,
+    },
+  },
+  // "memory": {
+  //   "interval": 30,
+  //   "format": "{}% ",
+  //   "max-length": 10,
+  // },
+  "network": {
+    "interface": "enp3s0",
+    "format": "{ifname}",
+    "format-wifi": "{essid} ({signalStrength}%) ",
+    "format-ethernet": " ",
+    "format-disconnected": "󰈂", //An empty format will hide the module.
+    "tooltip-format": "{ifname} via {gwaddr} ",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50,
+  },
+  // "cpu": {
+  //   "interval": 10,
+  //   "format": "{}% ",
+  //   "max-length": 10,
+  // },
+  // "temperature": {
+  //   "format": "{temperatureC}°C ",
+  // },
+  "custom/nixos-logo": {
+    "format": "",
+    "tooltip": false,
+  },
+  "custom/power": {
+    "color": "red",
+    "format": "⏻ ",
+    "tooltip": false,
+    "menu": "on-click",
+    "menu-file": "~/.config/waybar/power_menu.xml",
+    "menu-actions": {
+      "shutdown": "shutdown",
+      "reboot": "reboot",
+      "suspend": "systemctl suspend",
+      "hibernate": "systemctl hibernate",
+    },
+  },
+  "custom/notification": {
+    "tooltip": true,
+    "format": "<span size='14pt'>{icon}</span>",
+    "format-icons": {
+      "notification": "󱅫",
+      "none": "󰂜",
+      "dnd-notification": "󰂠",
+      "dnd-none": "󰪓",
+      "inhibited-notification": "󰂛",
+      "inhibited-none": "󰪑",
+      "dnd-inhibited-notification": "󰂛",
+      "dnd-inhibited-none": "󰪑"
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  }
+}

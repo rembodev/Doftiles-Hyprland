@@ -1,0 +1,138 @@
+* {
+    border: none;
+    font-family: "SF Pro Display","JetBrains Nerd Font Propo";
+    font-size: 12px;
+    /*Obligatory*/
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+tooltip label {
+  color: white;
+}
+
+#workspaces{
+    transition: all 1050ms ease-in-out;
+}
+
+#workspaces button {
+    transition: all 550ms ease-in-out;
+    font-weight: bold;
+    padding: 0 5px;
+    margin: 0 3px;
+    background: alpha(rgb(226, 217, 217), 0.7);
+    border: 2px solid rgb(115, 115, 115);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+#workspaces button.active{
+    min-width: 35px;
+    background-color: alpha (rgb(31, 30, 30), 0.7);
+    font-weight: bold;
+    color: white;
+    border-radius: 100px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#clock {
+    background-color: rgb(226, 217, 217);
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding: 0 10px 0 10px;
+    border: 1px solid rgb(101, 101, 136);
+    border-radius: 100px;
+
+}
+
+#pulseaudio{
+    background:rgb(226, 217, 217);;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 0 5px;
+    padding: 0 15px 0 10px;
+    border: 1px solid rgb(101, 101, 136);
+    border-radius: 100px;
+}
+#network{
+    background-color: rgb(226, 217, 217);
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding: 0 10px 0 10px;
+    border: 1px solid rgb(101, 101, 136);
+    border-radius: 100px;
+}
+#memory{
+    background-color: rgb(226, 217, 217);
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding: 0 15px 0 10px;
+    border: 1px solid rgb(101, 101, 136);
+    border-radius: 100px;
+}
+
+#temperature{
+    background-color: rgb(226, 217, 217);
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 0 5px;
+    padding: 0 15px 0 10px;
+    border: 1px solid rgb(101, 101, 136);
+    border-radius: 100px;
+}
+#custom-nixos-logo {
+    background-color: rgb(226, 217, 217);
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin: 0 5px;
+    padding: 0 10px 0 8px;
+    border: 1px solid rgb(101, 101, 136);
+    border-radius: 100px;
+}
+#cpu{
+    background-color: rgb(226, 217, 217);
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 0 5px;
+    padding: 0 15px 0 10px;
+    border: 1px solid rgb(101, 101, 136);
+    border-radius: 100px;
+}
+#custom-power{
+    background-color: rgb(226, 217, 217);
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 0 5px;
+    padding: 0 5px 0 10px;
+    border: 1px solid rgb(101, 101, 136);
+    border-radius: 100px;
+}
+#menu {
+    border-radius: 15px;
+    background: #161320;
+    color: #B5E8E0;
+}
+#menuitem {
+    border-radius: 15px;
+}
+
+#custom-notification{
+    background-color: rgb(226, 217, 217);
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 0 0 0 5px;
+    padding: 0 14px 0 10px;
+    border: 1px solid rgb(101, 101, 136);
+    border-radius: 100px;
+}
