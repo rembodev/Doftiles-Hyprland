@@ -64,9 +64,9 @@ A continuación se describen las carpetas principales de este repositorio:
 
 ## ⌨️ Atajos Rápidos
 
-* **Super + return**: Abrir Terminal (Ghostty).
+* **Super + RETURN**: Abrir Terminal (Ghostty).
 * **Super + D**: Abrir Lanzador (Rofi).
-* **Super + q**: Cerrar ventana activa.
+* **Super + Q**: Cerrar ventana activa.
 * **Super + M**: Salir de la sesión.
 
 ---
