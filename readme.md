@@ -6,6 +6,20 @@
 
 Configuración personal de **Arch Linux** con un entorno moderno basado en **Hyprland** y **Wayland**. Este setup está diseñado para ser minimalista, rápido y visualmente atractivo.
 
+## 🖼️ Galería
+
+<div style="display: flex; overflow-x: auto; gap: 10px;">
+  <img src="Previews/Preview5.png" width="400">
+  <img src="Previews/Preview2.png" width="400">
+  <img src="Previews/Preview7.png" width="400">
+  <img src="Previews/Preview6.png" width="400">
+  <img src="Previews/Preview10.png" width="400">
+  <img src="Previews/Preview4.png" width="600">
+  <img src="Previews/Preview0.png" width="400">
+</div>
+
+**Nota:** Tema SilentSDDM. Créditos a [uiriansan](https://github.com/uiriansan/SilentSDDM) 
+
 ---
 
 ## 🛠️ Componentes del Sistema
