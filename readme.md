@@ -14,7 +14,6 @@ Configuración personal de **Arch Linux** con un entorno moderno basado en **Hyp
   <img src="Previews/Preview7.png" width="400">
   <img src="Previews/Preview6.png" width="400">
   <img src="Previews/Preview10.png" width="400">
-  <img src="Previews/Preview4.png" width="600">
   <img src="Previews/Preview0.png" width="400">
 </div>
 
