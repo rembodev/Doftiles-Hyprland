@@ -40,15 +40,18 @@ Configuración personal de **Arch Linux** con un entorno moderno basado en **Hyp
 A continuación se describen las carpetas principales de este repositorio:
 
 * **`sddm/`**: Temas y configuración del gestor de arranque.
+* **`thunar/`**: Preferencias del explorador de archivos.
 * **`hypr/`**: Archivos de configuración de Hyprland (keybinds, monitores, reglas).
 * **`waybar/`**: Diseño y estilos CSS de la barra superior.
 * **`ghostty/`**: Ajustes de la terminal.
 * **`rofi/`**: Temas para el lanzador de aplicaciones.
 * **`swaync/`**: Estilo del centro de notificaciones.
+* **`qcalculate/`**: Perfiles de la calculadora técnica.
 * **`Wallpapers/`**: Fondos de pantalla seleccionados.
 * **`fastfetch/`**: Configuración del visualizador de info del sistema.
 * **`fonts/`**: Fuentes necesarias para la correcta visualización de iconos.
 * **`.zshrc`**: Alias y complementos de la shell.
+* **`waypaper/`**: Ajustes del gestor de fondos.
 
 ---
 
@@ -77,10 +80,28 @@ A continuación se describen las carpetas principales de este repositorio:
 
 ## ⌨️ Atajos Rápidos
 
-* **Super + RETURN**: Abrir Terminal (Ghostty).
-* **Super + D**: Abrir Lanzador (Rofi).
-* **Super + Q**: Cerrar ventana activa.
-* **Super + M**: Salir de la sesión.
+| Atajo | Acción |
+| :--- | :--- |
+| `SUPER + RETURN` | Abrir Terminal (**Ghostty**) |
+| `SUPER + E` | Abrir Explorador (**Thunar**) |
+| `SUPER + B` | Abrir Navegador (**Firefox**) |
+| `SUPER + D` | Lanzador de aplicaciones (**Rofi**) |
+| `SUPER + Q` | Cerrar ventana activa |
+| `Print` | Captura de pantalla (Salida activa) |
+| `SUPER + SHIFT + S` | Captura de pantalla (Región seleccionada) |
+| `SUPER + SHIFT + = / -` | Zoom In / Out (**Hypr-zoom**) |
 
 ---
+
+## 📦 Ecosistema de Aplicaciones
+Setup completo para desarrollo, estudio y multimedia:
+
+* **Dev & Ops:** `VS Code`, `Ghostty`, `Git`.
+* **Productividad:** `Pomotroid` (Pomodoro), `Obsidian` (Notes), `Qalculate!`.
+* **Multimedia:** `Spotify`, `VLC`, `MPV`, `OBS Studio`.
+* **Navegación:** `Firefox`.
+* **Utilidades:** `Hyprshot` (Screenshots), `Hypr-zoom` (Magnificación de pantalla).
+
+---
+
 Hecho por [rembodev](https://github.com/rembodev)
