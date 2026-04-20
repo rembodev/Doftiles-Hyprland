@@ -29,6 +29,7 @@ Configuración personal de **Arch Linux** con un entorno moderno basado en **Hyp
 | **Login Manager** | **SDDM** | Gestor de inicio de sesión gráfico. |
 | **Terminal** | [Ghostty](https://mitchellh.com/ghostty) | Emulador de terminal de alto rendimiento. |
 | **Barra de Estado** | Waybar | Barra superior informativa y modular. |
+|**File Manager** | **Thunar** / **Yazi** | Gestión de archivos eficiente (GUI y CLI). |
 | **Lanzador** | Rofi | Menú para aplicaciones y comandos. |
 | **Notificaciones** | SwayNC | Centro de notificaciones nativo de Wayland. |
 | **Shell** | Zsh | Configuración personalizada con `.zshrc`. |
@@ -97,9 +98,9 @@ A continuación se describen las carpetas principales de este repositorio:
 Setup completo para desarrollo, estudio y multimedia:
 
 * **Dev & Ops:** `VS Code`, `Ghostty`, `Git`.
-* **Productividad:** `Pomotroid` (Pomodoro), `Obsidian` (Notes), `Qalculate!`.
+* **Productividad:** `Pomotroid` (Pomodoro), `Obsidian` (Notes).
 * **Multimedia:** `Spotify`, `VLC`, `MPV`, `OBS Studio`.
-* **Navegación:** `Firefox`.
+* **Navegación:** `Firefox`, `Brave`, Google Chrome.
 * **Utilidades:** `Hyprshot` (Screenshots), `Hypr-zoom` (Magnificación de pantalla).
 
 ---
